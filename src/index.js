@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Benefits from "./components/Benefits";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
         <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
           <Header />
           <Hero />
+          <Benefits />
         </div>
         <ButtonGradient />
       </>
