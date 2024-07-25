@@ -75,6 +75,13 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import linkedin from "./linkedin.svg";
+import canva from "./canva.svg";
+import grammarly from "./grammarly.svg";
+import resume from "./resume.svg";
+import googledoc from "./googledoc.svg";
+import feedback from "./feedback.svg";
+
 export {
   brainwave,
   check,
@@ -144,4 +151,10 @@ export {
   instagram,
   telegram,
   twitter,
+  linkedin,
+  canva,
+  grammarly,
+  resume,
+  googledoc,
+  feedback,
 };

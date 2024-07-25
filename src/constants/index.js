@@ -6,10 +6,8 @@ import {
   benefitImage2,
   chromecast,
   disc02,
-  discord,
   discordBlack,
   facebook,
-  figma,
   file02,
   framer,
   homeSmile,
@@ -17,8 +15,6 @@ import {
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
   plusSquare,
   protopie,
   raindrop,
@@ -29,11 +25,15 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
+  linkedin,
+  feedback,
+  grammarly,
+  resume,
+  googledoc,
 } from "../assets";
 
 export const navigation = [
@@ -128,57 +128,59 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With AI-driven insights and personalized feedback, it's the perfect solution for job seekers looking to enhance their CVs.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Personalized Feedback",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "AI-Driven Insights",
+    text: "Utilize advanced AI technology to get detailed insights and recommendations for your CV.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Career Advancement",
+    text: "Enhance your CV to improve your chances of landing your dream job.",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "Linkedin",
+    icon: linkedin,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Feedback",
+    icon: feedback,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "Grammarly",
+    icon: grammarly,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Resume",
+    icon: resume,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Google Doc",
+    icon: googledoc,
     width: 34,
     height: 34,
   },
