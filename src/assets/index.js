@@ -18,6 +18,11 @@ import recording01 from "./recording-01.svg";
 import disc02 from "./disc-02.svg";
 import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
+import experience from "./experience.svg";
+import graduation from "./graduation.svg";
+import contact from "./emailling.svg";
+import network from "./network.svg";
+import summary from "./summary.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
 
@@ -39,6 +44,8 @@ import slack from "./collaboration/slack.png";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import service4 from "./services/service-4.png";
+import service5 from "./services/service-5.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -103,6 +110,11 @@ export {
   disc02,
   chromecast,
   sliders04,
+  experience,
+  graduation,
+  contact,
+  summary,
+  network,
   loading,
   background,
   curve,
@@ -121,6 +133,8 @@ export {
   service1,
   service2,
   service3,
+  service4,
+  service5,
   lines,
   stars,
   coins,

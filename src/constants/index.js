@@ -4,8 +4,6 @@ import {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
-  chromecast,
-  disc02,
   discordBlack,
   facebook,
   file02,
@@ -18,14 +16,16 @@ import {
   plusSquare,
   protopie,
   raindrop,
-  recording01,
-  recording03,
   roadmap1,
   roadmap2,
   roadmap3,
   roadmap4,
   searchMd,
-  sliders04,
+  experience,
+  network,
+  graduation,
+  contact,
+  summary,
   telegram,
   twitter,
   yourlogo,
@@ -78,17 +78,17 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
+  "AI-Powered CV Analysis",
+  "Personalized Feedback",
   "Seamless Integration",
 ];
 
 export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
+  experience,
+  graduation,
+  summary,
+  network,
+  contact,
 ];
 
 export const roadmap = [
