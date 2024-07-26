@@ -9,6 +9,7 @@ import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
+import Roadmap from "./components/Roadmap";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
           <Collaboration />
           <Services />
           <Pricing />
+          <Roadmap />
         </div>
         <ButtonGradient />
       </>

@@ -1,9 +1,9 @@
 import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
-import Tagline from "./TagLine";
+import Tagline from "./Tagline";
 import { roadmap } from "../constants";
-import { check2, grid, loading1 } from "../../public/assets";
+import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
@@ -50,7 +50,7 @@ const Roadmap = () => (
 
                   <div className="mb-10 -my-10 -mx-15">
                     <img
-                      className="w-full"
+                      className="w-full px-4"
                       src={item.imageUrl}
                       width={628}
                       height={426}
